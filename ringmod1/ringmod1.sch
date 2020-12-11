@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:ringmod1-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -130,18 +131,16 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J3
 U 1 1 5FD2AA2E
-P 6700 3650
-F 0 "J3" H 6780 3642 50  0000 L CNN
-F 1 "OUT" H 6780 3551 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6700 3650 50  0001 C CNN
-F 3 "~" H 6700 3650 50  0001 C CNN
-	1    6700 3650
-	1    0    0    -1  
+P 6700 3750
+F 0 "J3" H 6780 3742 50  0000 L CNN
+F 1 "OUT" H 6780 3651 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6700 3750 50  0001 C CNN
+F 3 "~" H 6700 3750 50  0001 C CNN
+	1    6700 3750
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	6250 3500 6500 3500
-Wire Wire Line
-	6500 3500 6500 3650
 Wire Wire Line
 	6500 3900 6500 3750
 Wire Wire Line
@@ -170,4 +169,6 @@ Wire Wire Line
 	4300 4350 4850 4350
 Wire Wire Line
 	6250 3900 6500 3900
+Wire Wire Line
+	6500 3500 6500 3650
 $EndSCHEMATC
